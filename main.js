@@ -8,9 +8,6 @@
 
 // alert(pwd)
 
-
-
-
 function PwdGen() {
     let nomeUtente = document.getElementById("name").value;
     let cognomeUtente = document.getElementById("cognome").value;
@@ -31,6 +28,9 @@ function PwdGen() {
     }
     else {
         alert(risultato)
+        document.getElementById("name").value = ""
+        document.getElementById("cognome").value = ""
+        document.getElementById("colore").value = ""
     }
 
 }

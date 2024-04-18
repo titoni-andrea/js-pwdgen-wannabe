@@ -41,9 +41,37 @@ body {
 label {
     text-align: center;
     padding-top: 20px;
+    color: #222;
 }
 
 input {
     width: 50%;
-    margin: 15px 0px;
+    margin: 10px 0px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.bottone {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: #222;
+    font-weight: bold;
+    font-size:17px;
+    border: solid 2px white;
+    box-shadow: 0px 0px 6px #222;
+}
+
+.bottone:hover {
+    border: solid 2px #222;
+}
+
+.bottone:active {
+    background-color: #222;
+    color: white;
 }

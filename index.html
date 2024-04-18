@@ -19,15 +19,19 @@
             <h2 class="sottotitolo">Crea la tua Password!</h2>
 
             <label for="name"><strong>Nome</strong></label>
-            <input type="text" id="name" name="name" size="10" />
+            <input type="text" id="name" name="name" size="10" placeholder="Es. Andrea" />
 
-            <label for="cognome"><strong>Cognome</strong> (4 to 8 characters):</label>
-            <input type="text" id="cognome" name="cognome" size="10" />
+            <label for="cognome"><strong>Cognome</strong></label>
+            <input type="text" id="cognome" name="cognome" size="10" placeholder="Es. Titoni" />
 
-            <label for="colore"><strong>Colore</strong> (4 to 8 characters):</label>
-            <input type="text" id="colore" name="colore" size="10" />
+            <select name='frutto'>
+                <option value='A'>Maggiorenne</option>
+                <option value='B'>Minorenne</option>
+                <option value='C'>Senior</option>
+            </select>
 
-            <button onclick="PwdGen()">INVIA</button>
+
+            <button class="bottone" onclick="PwdGen()">INVIA</button>
         </div>
     </div>
 
